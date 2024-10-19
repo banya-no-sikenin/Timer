@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>パルスカウンター</title>
+</head>
+<body>
+    <h1>パルスカウンター</h1>
+
+        <label id="output1">Press any key...</label>
+        <label id="output2">(---)</label>
+        <br>
+        <label for="name">Code:</label>
+        <input type="number" id="input" name="input" min="0" max="255">
+        <br>
+        <button id="Button1">リセット</button>  
+        <br><br>
+        <h1><div id="nowtime">-----</div></h1>
+        <br>
+
+        <p><h3>タイマーの種類を選んでください</h3></p>
+        <label>
+            <input type="radio" id="counter1" name="counter" value="PulseWide" checked>
+            ストップウオッチ
+        </label>
+        <br>
+        <label>
+            <input type="radio" id="counter2" name="counter" value="PulusSpan">
+            パルス幅計測
+        </label>
+        <br>
+        <label>
+            <input type="radio" id="counter3" name="counter" value="PulusSpan">
+            カウンタ
+        </label>
+
+    <script src="button.js"></script>
+
+</body>
+</html>
